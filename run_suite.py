@@ -27,3 +27,6 @@ with open(report_path, mode='wb') as f:
     runner = HTMLTestRunner(f, verbosity=1, title="IHRM人力资源接口测试", description="V1.0.0")
     # 使用runner运行测试套件
     runner.run(suite)
+    print（"1111"）
+
+
